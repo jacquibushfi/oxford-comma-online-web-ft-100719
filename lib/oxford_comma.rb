@@ -1,6 +1,6 @@
 def oxford_comma(array)
   
- while !array.last do
+ while array[
      array.join(", ")
   end
     array.join(", and ")
