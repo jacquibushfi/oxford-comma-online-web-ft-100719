@@ -1,8 +1,7 @@
 def oxford_comma(array)
   
-  if !array.last 
-    array.join(", ")
-  else
-    array.join(", and ")
+ while !array.last do
+     array.join(", ")
   end
+    array.join(", and ")
 end
